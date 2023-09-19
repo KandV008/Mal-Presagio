@@ -46,46 +46,40 @@ The objective is to develop software in all its phases, being the following:
 
 ### :bust_in_silhouette: Users
 
-Common features
-* Name: character string
-* Nickname: character string
-* Password: character string [8..12]
-
-Registed User features
-* ID: CNNCC (C -> char; N -> natural number)
-* Active character
-* Banned: boolean
+- Unregistered User -> This user can't use the application, it has to create an account to access to the system.
+- Registered User -> This user use all the actions related to challenges and combats.
+- Operator User -> This user only can administrates the users and validate challenges.
 
 ### :wrench: Functional Requirements
 
-| Function | User | Operator |
-| :-: | :-: | :-: |
-| Create Account | :white_check_mark: | :white_check_mark: |
-| Delete Account | :white_check_mark: | :white_check_mark: |
-| System Access | :white_check_mark: | :white_check_mark: |
-| Recover password | :white_check_mark: | :white_check_mark: |
-| System Exit | :white_check_mark: | :white_check_mark: |
-| Register Character | :white_check_mark:| |
-| Edit Character | | :white_check_mark: |
-| Unsubscribe a character | :white_check_mark: | |
-| Select active weapon | :white_check_mark: | | 
-| Select active armour | :white_check_mark: | |
-| Add weapon to a character | | :white_check_mark: |
-| Remove weapon to a character | | :white_check_mark: |
-| Add armour to a character | | :white_check_mark: |
-| Remove armour to a character | | :white_check_mark: |
-| Add modifier to a character | | :white_check_mark: |
-| Remove modifier to a character | | :white_check_mark: |
-| Challenge a user | :white_check_mark: | |
-| Accept a challenge | :white_check_mark: | |
-| Decline a challenge | :white_check_mark: | |
-| See battle log | :white_check_mark: | |
-| See global ranking | :white_check_mark: | |
-| Validate a challenge | | :white_check_mark: |
-| Ban user | | :white_check_mark: |
-| Unban user | | :white_check_mark: |
-| See gold | :white_check_mark: | |
-| Combat | :white_check_mark: | |
+| Function | Unregistered User | Registered User | Operator |
+| :-: | :-: | :-: | :-: |
+| Create Account | :white_check_mark: |  |  |
+| Delete Account | | :white_check_mark: | :white_check_mark: |
+| System Access | | :white_check_mark: | :white_check_mark: |
+| Recover password | | :white_check_mark: | :white_check_mark: |
+| System Exit | | :white_check_mark: | :white_check_mark: |
+| Register Character | | :white_check_mark:| |
+| Edit Character | | | :white_check_mark: |
+| Unsubscribe a character | | :white_check_mark: | |
+| Select active weapon | | :white_check_mark: | | 
+| Select active armour | | :white_check_mark: | |
+| Add weapon to a character | | | :white_check_mark: |
+| Remove weapon to a character | | | :white_check_mark: |
+| Add armour to a character | | | :white_check_mark: |
+| Remove armour to a character | | | :white_check_mark: |
+| Add modifier to a character | | | :white_check_mark: |
+| Remove modifier to a character | | | :white_check_mark: |
+| Challenge a user | | :white_check_mark: | |
+| Accept a challenge | | :white_check_mark: | |
+| Decline a challenge | | :white_check_mark: | |
+| See battle log | |:white_check_mark: | |
+| See global ranking | |:white_check_mark: | |
+| Validate a challenge | | | :white_check_mark: |
+| Ban user | | | :white_check_mark: |
+| Unban user | | | :white_check_mark: |
+| See gold | |:white_check_mark: | |
+| Combat | | :white_check_mark: | |
 
 ### :pushpin: No Functional Requirements
 
