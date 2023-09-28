@@ -102,22 +102,22 @@ The objective is to develop software in all its phases, being the following:
 
 ### :bar_chart: Use Cases Diagrams
 
-![system access](/readme-files/system_acces.svg)
+![system access](/readme-files/Functional-Analisis/system_acces.svg)
 <small> Figure 1 System Acces </small>
 
-![operator actions](/readme-files/operator_actions.svg)
+![operator actions](/readme-files/Functional-Analisis/operator_actions.svg)
 <small> Figure 2 Operator Actions </small>
 
-![user actions](/readme-files/user_actions.svg)
+![user actions](/readme-files/Functional-Analisis/user_actions.svg)
 <small> Figure 3 User Actions </small>
 
-![challenges](/readme-files/challenges.svg)
+![challenges](/readme-files/Functional-Analisis/challenges.svg)
 <small> Figure 4 Challenges
 
-![character selection](/readme-files/character_selection.svg)
+![character selection](/readme-files/Functional-Analisis/character_selection.svg)
 <small> Figure 5 Character Selection </small>
 
-![character edit](/readme-files/character_edit.svg)
+![character edit](/readme-files/Functional-Analisis/character_edit.svg)
 <small> Figure 6 Character Edit </small>
 
 
